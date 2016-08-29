@@ -1,0 +1,29 @@
+db.employees2.insert({
+    "name" : "Tom",
+    "salary" : 10000.0000000000000000,
+    "commission":120, 
+    "department" : {
+        "id" : 1.0000000000000000,
+        "name" : "Sales"
+    }
+})
+
+db.employees2.insert({
+    "name" : "Jerry",
+    "salary" : 20000.0000000000000000,
+"commission":10000,
+    "department" : {
+        "id" : 2.0000000000000000,
+        "name" : "Production"
+    }
+})
+
+db.employees2.insert({
+    "name" : "Ivan",
+    "salary" : 30000.0000000000000000,
+"commission":50000,
+    "department" : {
+        "id" : 1.0000000000000000,
+        "name" : "Sales"
+    }
+})
